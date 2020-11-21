@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif ; 
+   background-image: url("cool-background (1).png");
+}
+h1{
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color:white;
+}
+.view
+{
+    margin-top:20px;
+    font-size: 25px;
+}
+img{
+    margin-left:0%;
+}
+.button-style{
+  background-color: none;
+  border: 2px solid Dodgerblue;
+  padding:15px 32px;
+  border-radius: 12px;
+  margin: 10px 15px ;
+}
+.button-style:hover{
+  background-color: Dodgerblue;
+  border: 2px solid white;
+  padding:15px 32px;
+  border-radius: 12px;
+  margin: 10px 15px ;
+}
+.button-link-style{
+  color:black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+@keyframes buttonx-in {
+      from {transform:skew(-42deg) translate(-300px, 0);}
+      to {transform:skew(-42deg) translate(-20px, -0px);}    
+  }
+  
+  @keyframes buttonx-out {
+      from {transform: skew(-42deg) translate(0, 0);}
+      to {transform: skew(-42deg) translate(300px, -0px);}
+  }
+  
+  @-webkit-keyframes buttonx-in {
+      from {transform:skew(-42deg) translate(-300px, 0);}
+      to {transform:skew(-42deg) translate(-20px, -0px);}    
+  }
+  
+  @-webkit-keyframes buttonx-out {
+      from {transform: skew(-42deg) translate(0, 0);}
+      to {transform: skew(-42deg) translate(300px, -0px);}
+  }
+
+
+
+
+  .flat-table {
+    margin-bottom: 20px;
+    border-collapse:collapse;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    border: none;
+            border-radius: 3px;
+           -webkit-border-radius: 3px;
+           -moz-border-radius: 3px;
+           position: relative;
+           left: 33%;
+}
+.flat-table th, .flat-table td {
+    box-shadow: inset 0 -1px rgba(0,0,0,0.25), 
+        inset 0 1px rgba(0,0,0,0.25);
+}
+.flat-table th {
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    padding: 1em;
+    color: rgba(0,0,0,0.45);
+    text-shadow: 0 0 1px rgba(0,0,0,0.1);
+    font-size: 1.5em;
+}
+.flat-table td {
+    color: #92c6df;
+    padding: 0.7em 1em 0.7em 1.15em;
+    text-shadow: 0 0 1px rgba(255,255,255,0.1);
+    font-size: 1.4em;
+}
+.flat-table tr {
+    -webkit-transition: background 0.3s, box-shadow 0.3s;
+    -moz-transition: background 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+.flat-table-1 {
+    background: #336ca6;
+}
+.flat-table-1 tr:hover {
+    background: rgba(0,0,0,0.19);
+}
+.custom-select select{
+  background-color: Dodgerblue;
+  height:40px;
+  text-align: center;
+  margin-left: 595px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-left: 25px;
+}
